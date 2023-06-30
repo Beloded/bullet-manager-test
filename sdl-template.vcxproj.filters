@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{54202a5a-e7fb-4950-b93c-14af182c44cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tests">
+      <UniqueIdentifier>{154aa19e-2160-436c-8ea6-170b83a7b5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletManager">
+      <UniqueIdentifier>{f067cffd-ea30-4f94-9074-ea44739d6f90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\App.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\PerfomanceTest1.cpp">
+      <Filter>src\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\PerfomanceTest2.cpp">
+      <Filter>src\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\StabilityTest.cpp">
+      <Filter>src\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\ITest.cpp">
+      <Filter>src\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BulletManager\BulletManager.cpp">
+      <Filter>src\BulletManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\App.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tests\PerfomanceTest2.h">
+      <Filter>src\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tests\PerfomanceTest1.h">
+      <Filter>src\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tests\StabilityTest.h">
+      <Filter>src\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tests\ITest.h">
+      <Filter>src\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BulletManager\Bullet.h">
+      <Filter>src\BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BulletManager\BulletManager.h">
+      <Filter>src\BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BulletManager\float2.h">
+      <Filter>src\BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BulletManager\Wall.h">
+      <Filter>src\BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Extensions.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
